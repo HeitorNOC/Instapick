@@ -1,0 +1,32 @@
+{
+  "name": "mernstack",
+  "version": "0.0.0",
+  "proxy": "https://instapick.netlify.app/posts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@mui/material": "^5.5.0",
+    "axios": "^0.25.0",
+    "jwt-decode": "^3.1.2",
+    "material-ui-chip-input": "^1.1.0",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-file-base64": "^1.0.3",
+    "react-google-login": "^5.2.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.7",
+    "vite": "^2.7.2"
+  }
+}
